@@ -1,2 +1,2 @@
 # Memoria
-Juego de Meemoria Star Wars
+Juego de Memoria Star Wars
