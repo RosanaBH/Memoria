@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.memoria" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Memoria Star Wars 1.0</name>
+    <description>
+        Juego de Memoria Star Wars 1.0
+    </description>
+    <author email="rosbohe@gmail.com" href="http://phonegap.com">
+        Rosana Bolaños Hernández
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <plugin name="cordova-plugin-vibration" spec="~2.1.6" source="npm"/>
+    <plugin name="cordova-plugin-device-motion" spec="~1.2.5" source="npm"/>
+    <!-- permisions app -->
+    <preference name="permissions" value="none" />
+    <feature name="Accelerometer">
+        <param name="android-package" value="org.apache.cordova.AccelListener" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.Notification" />
+    </feature>
+    <platform name="android">
+              <icon src="res/android/icon-36-ldpi.png" density="ldpi" />
+              <icon src="res/android/icon-48-mdpi.png" density="mdpi" />
+              <icon src="res/android/icon-72-hdpi.png" density="hdpi" />
+              <icon src="res/android/icon-96-xhdpi.png" density="xhdpi" />
+     </platform>
+
+</widget>
