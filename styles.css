@@ -1,0 +1,204 @@
+.img-tarjeta{ /*regla numero 1 - No mover!*/
+	height: 80px;
+	width: 80px;
+	opacity: 0;
+}
+.tarjeta{ /*regla numero 2 - No mover!*/
+	background-color: #F6BA59;
+	color: #FFFFFF;
+	border: medium solid #494B46;
+	font-size: 1em;
+	padding: 0px;
+	margin: 2px;
+	border-radius: 10px;
+	cursor: pointer;
+	height: 80px;
+	width: 80px;
+	background-image: url(../img/rebelWhite.png);
+	background-size:cover;
+	background-clip:border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+html{overflow-y:scroll}
+body{
+    background-color: lightgrey;
+}
+main{
+	align-content:center;
+	padding-left: 4px;
+	padding-bottom: 8px;
+	padding-right: 4px;
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-top: 8px;
+}
+header{
+    background-color: lightgrey;
+	margin-left: 8px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	align-content:center;
+}
+nav{
+	display:flex;
+	padding-left: 8px;
+	
+	flex-direction:row;
+	flex-wrap:wrap;
+	align-content:center;
+	align-items:stretch;
+	align-content:stretch;
+	alignment-adjust:central;
+	
+}
+#titulo{
+	font-size:17px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-bottom:8px;
+	
+}
+footer{
+    background-color: lightgrey;
+	color:#494B46;
+	margin-left:10px;
+	padding-left:15px;
+	font-size:10px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+
+.mensaje{
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 4px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size:14px;
+	font-size-adjust:inherit;
+	align-content:center;
+	alignment-adjust:central;
+}
+
+.tarjeta:hover{
+	background-color: #F49429;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);	
+	background-image: url(../img/rebelGrey.png);
+	background-position: center;
+	background-repeat: no-repeat;	
+}
+.tarjeta:active {
+  background-color: #F49429;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  background-image: url(../img/rebelBlack.png);
+  background-position: center;
+  background-repeat: no-repeat;	
+}
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}	
+.flex-container{
+	display:flex;
+	flex-wrap:wrap;
+	align-content:center;
+}
+#parejas{
+	background-color: #FFFFFF;
+	alignment-adjust:central;
+	align-content:center;
+	align-items:center;
+	padding:inherit;
+	
+	border-color:#494B46;
+	border-style:solid;
+	border-width:thin;
+	
+	border-radius:30px;
+}
+
+.bt-play{
+	height: 40px;
+	width: 75px;
+	text-align:center;
+	margin: 0px;
+}
+.bt-play span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.bt-play span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.bt-play:hover span {
+  padding-right: 25px;
+}
+.bt-play:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+button{
+    background-color: #F6BA59;
+    color:#FFFFFF;
+    border:thin;
+	border-color: #494B46;
+    font-size:1em;
+	padding: 5px;
+	margin: 3px;
+	border-style: solid;
+	border-radius: 4px;
+	cursor: pointer;
+	height: 28px;
+	width: 30px;
+	
+}
+button:hover{
+	background-color: #F49429;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+button:active {
+  background-color: #F49429;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#nivel{
+	height: 40px;
+	width: 80px;
+	color: #494B46;
+	background-color: white;
+	border-radius: 0px;
+	
+    cursor: not-allowed;
+}
+#crono{
+	height: 40px;
+	width: 80px;
+	color: #F49429;
+	background-color: white;
+	border-radius: 0px;
+	
+    cursor: not-allowed;
+}
+#reiniciar{
+	border-radius: 0px;
+}
+#logo{
+	height: 90px;
+	width: 90px;
+}
+#yoda{
+	height: 150px;
+	width: 150px;
+}
+
+
+
